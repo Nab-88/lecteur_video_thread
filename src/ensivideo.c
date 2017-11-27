@@ -27,6 +27,17 @@ int main(int argc, char *argv[]) {
     //le thread : theoraStreamReader avec argv[1] en arguement = le nom du ficier
     //le thread : vorbisStreamReader avec idem
 
+    pthread_t thread_video;
+    if (pthread_create(&thread_video, NULL, theoraStreamReader, argv[1])) {
+      perror("thread_create_video");
+      return EXIT_FAILURE;
+    }
+    pthread_t thread_audio;
+    if (pthread_create(&thread_audio, NULL, vorbisStreamReader, argv[1])) {
+      perror("thread_create_audio");
+      return EXIT_FAILURE;
+    }
+
     //entre temps il se passe des trucs l.144 de stream_common.c
 
     // wait audio thread
