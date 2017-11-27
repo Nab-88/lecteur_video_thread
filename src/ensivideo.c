@@ -41,7 +41,10 @@ int main(int argc, char *argv[]) {
     //entre temps il se passe des trucs l.144 de stream_common.c
 
     // wait audio thread
-    //ici on attend la terminaison du thread vorbis..
+    if (pthread_join(thread_video, NULL)) {
+      perror("thread_join");
+      return EXIT_FAILURE;
+    }
 
     // 1 seconde de garde pour le son,
     sleep(1);
