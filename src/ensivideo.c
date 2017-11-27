@@ -21,19 +21,26 @@ int main(int argc, char *argv[]) {
     res = SDL_Init(SDL_INIT_VIDEO|SDL_INIT_AUDIO|SDL_INIT_EVENTS);
     atexit(SDL_Quit);
     assert(res == 0);
-    
-    // start the two stream readers
 
-    
+    // start the two stream readers
+    // lancer avec pthread :
+    //le thread : theoraStreamReader avec argv[1] en arguement = le nom du ficier
+    //le thread : vorbisStreamReader avec idem
+
+    //entre temps il se passe des trucs l.144 de stream_common.c
+
     // wait audio thread
+    //ici on attend la terminaison du thread vorbis..
 
     // 1 seconde de garde pour le son,
     sleep(1);
 
     // tuer les deux threads videos si ils sont bloqués
+    //pthread_cancel avant d'attendre leur terminaison
+
 
     // attendre les 2 threads videos
 
-    
-    exit(EXIT_SUCCESS);    
+
+    exit(EXIT_SUCCESS);
 }
