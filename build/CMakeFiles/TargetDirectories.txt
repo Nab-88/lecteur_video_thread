@@ -1,0 +1,2 @@
+/home/ensimag/lecteur_video_thread/build/CMakeFiles/check.dir
+/home/ensimag/lecteur_video_thread/build/CMakeFiles/ensivideo.dir
