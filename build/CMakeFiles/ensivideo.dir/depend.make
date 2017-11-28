@@ -8,10 +8,12 @@ CMakeFiles/ensivideo.dir/src/ensitheora.c.o: ../src/stream_common.h
 CMakeFiles/ensivideo.dir/src/ensitheora.c.o: ../src/synchro.h
 CMakeFiles/ensivideo.dir/src/ensitheora.c.o: ../src/uthash.h
 
+CMakeFiles/ensivideo.dir/src/ensivideo.c.o: ../src/ensitheora.h
 CMakeFiles/ensivideo.dir/src/ensivideo.c.o: ../src/ensivideo.c
 CMakeFiles/ensivideo.dir/src/ensivideo.c.o: ../src/ensivideo.h
 CMakeFiles/ensivideo.dir/src/ensivideo.c.o: ../src/oggstream.h
 CMakeFiles/ensivideo.dir/src/ensivideo.c.o: ../src/stream_common.h
+CMakeFiles/ensivideo.dir/src/ensivideo.c.o: ../src/synchro.h
 CMakeFiles/ensivideo.dir/src/ensivideo.c.o: ../src/uthash.h
 
 CMakeFiles/ensivideo.dir/src/ensivorbis.c.o: ../src/ensivideo.h

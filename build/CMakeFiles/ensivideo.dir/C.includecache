@@ -6,23 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/ensimag/lecteur_video_thread/src/ensivideo.c
-stdio.h
--
-unistd.h
--
-assert.h
+/user/2/.base/boussanl/home/lecteur_video_thread/src/ensitheora.h
+ogg/ogg.h
 -
 SDL2/SDL.h
 -
-pthread.h
--
-stream_common.h
-/home/ensimag/lecteur_video_thread/src/stream_common.h
-oggstream.h
-/home/ensimag/lecteur_video_thread/src/oggstream.h
+ensivideo.h
+/user/2/.base/boussanl/home/lecteur_video_thread/src/ensivideo.h
 
-/home/ensimag/lecteur_video_thread/src/ensivideo.h
+/user/2/.base/boussanl/home/lecteur_video_thread/src/ensivideo.h
 stdbool.h
 -
 ogg/ogg.h
@@ -34,15 +26,23 @@ theora/theoradec.h
 vorbis/codec.h
 -
 uthash.h
-/home/ensimag/lecteur_video_thread/src/uthash.h
+/user/2/.base/boussanl/home/lecteur_video_thread/src/uthash.h
 
-/home/ensimag/lecteur_video_thread/src/oggstream.h
+/user/2/.base/boussanl/home/lecteur_video_thread/src/synchro.c
+synchro.h
+/user/2/.base/boussanl/home/lecteur_video_thread/src/synchro.h
+ensitheora.h
+/user/2/.base/boussanl/home/lecteur_video_thread/src/ensitheora.h
+pthread.h
+/user/2/.base/boussanl/home/lecteur_video_thread/src/pthread.h
 
-/home/ensimag/lecteur_video_thread/src/stream_common.h
-ensivideo.h
-/home/ensimag/lecteur_video_thread/src/ensivideo.h
+/user/2/.base/boussanl/home/lecteur_video_thread/src/synchro.h
+stdbool.h
+-
+ensitheora.h
+/user/2/.base/boussanl/home/lecteur_video_thread/src/ensitheora.h
 
-/home/ensimag/lecteur_video_thread/src/uthash.h
+/user/2/.base/boussanl/home/lecteur_video_thread/src/uthash.h
 string.h
 -
 stddef.h

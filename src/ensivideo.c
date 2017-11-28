@@ -5,7 +5,7 @@
 #include <pthread.h>
 #include "stream_common.h"
 #include "oggstream.h"
-
+#include "synchro.h"
 
 int main(int argc, char *argv[]) {
     int res;
@@ -24,16 +24,16 @@ int main(int argc, char *argv[]) {
 
     // start the two stream readers
     // lancer avec pthread :
-    //le thread : theoraStreamReader avec argv[1] en arguement = le nom du ficier
+    //le thread : theoraStreamReader avec argv[1] en argument = le nom du fichier
     //le thread : vorbisStreamReader avec idem
 
     pthread_t thread_video;
-    if (pthread_create(&thread_video, NULL, theoraStreamReader, argv[1]) == -1) {
+    if (pthread_create(&thread_video, NULL, theoraStreamReader, argv[1])) {
       perror("thread_create_video");
       return EXIT_FAILURE;
     }
     pthread_t thread_audio;
-    if (pthread_create(&thread_audio, NULL, vorbisStreamReader, argv[1]) == -1) {
+    if (pthread_create(&thread_audio, NULL, vorbisStreamReader, argv[1])) {
       perror("thread_create_audio");
       return EXIT_FAILURE;
     }
@@ -52,9 +52,10 @@ int main(int argc, char *argv[]) {
     // tuer les deux threads videos si ils sont bloqués
     //pthread_cancel avant d'attendre leur terminaison
     pthread_cancel(thread_video);
+    pthread_cancel(thread_sdl);
     // pthread_cancel(thread_sdl);
     // attendre les 2 threads videos
-
+    // Tuer tout les mutex
 
     exit(EXIT_SUCCESS);
 }

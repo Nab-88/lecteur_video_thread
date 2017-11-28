@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ensimag/lecteur_video_thread
+CMAKE_SOURCE_DIR = /user/2/.base/boussanl/home/lecteur_video_thread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ensimag/lecteur_video_thread/build
+CMAKE_BINARY_DIR = /user/2/.base/boussanl/home/lecteur_video_thread/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ensivideo.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/ensivideo.dir/flags.make
 
 CMakeFiles/ensivideo.dir/src/ensivideo.c.o: CMakeFiles/ensivideo.dir/flags.make
 CMakeFiles/ensivideo.dir/src/ensivideo.c.o: ../src/ensivideo.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ensimag/lecteur_video_thread/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /user/2/.base/boussanl/home/lecteur_video_thread/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ensivideo.dir/src/ensivideo.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/ensivideo.c.o   -c /home/ensimag/lecteur_video_thread/src/ensivideo.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/ensivideo.c.o   -c /user/2/.base/boussanl/home/lecteur_video_thread/src/ensivideo.c
 
 CMakeFiles/ensivideo.dir/src/ensivideo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ensivideo.dir/src/ensivideo.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ensimag/lecteur_video_thread/src/ensivideo.c > CMakeFiles/ensivideo.dir/src/ensivideo.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /user/2/.base/boussanl/home/lecteur_video_thread/src/ensivideo.c > CMakeFiles/ensivideo.dir/src/ensivideo.c.i
 
 CMakeFiles/ensivideo.dir/src/ensivideo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ensivideo.dir/src/ensivideo.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ensimag/lecteur_video_thread/src/ensivideo.c -o CMakeFiles/ensivideo.dir/src/ensivideo.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /user/2/.base/boussanl/home/lecteur_video_thread/src/ensivideo.c -o CMakeFiles/ensivideo.dir/src/ensivideo.c.s
 
 CMakeFiles/ensivideo.dir/src/ensivideo.c.o.requires:
 .PHONY : CMakeFiles/ensivideo.dir/src/ensivideo.c.o.requires
@@ -77,17 +77,17 @@ CMakeFiles/ensivideo.dir/src/ensivideo.c.o.provides.build: CMakeFiles/ensivideo.
 
 CMakeFiles/ensivideo.dir/src/ensitheora.c.o: CMakeFiles/ensivideo.dir/flags.make
 CMakeFiles/ensivideo.dir/src/ensitheora.c.o: ../src/ensitheora.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ensimag/lecteur_video_thread/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /user/2/.base/boussanl/home/lecteur_video_thread/build/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ensivideo.dir/src/ensitheora.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/ensitheora.c.o   -c /home/ensimag/lecteur_video_thread/src/ensitheora.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/ensitheora.c.o   -c /user/2/.base/boussanl/home/lecteur_video_thread/src/ensitheora.c
 
 CMakeFiles/ensivideo.dir/src/ensitheora.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ensivideo.dir/src/ensitheora.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ensimag/lecteur_video_thread/src/ensitheora.c > CMakeFiles/ensivideo.dir/src/ensitheora.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /user/2/.base/boussanl/home/lecteur_video_thread/src/ensitheora.c > CMakeFiles/ensivideo.dir/src/ensitheora.c.i
 
 CMakeFiles/ensivideo.dir/src/ensitheora.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ensivideo.dir/src/ensitheora.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ensimag/lecteur_video_thread/src/ensitheora.c -o CMakeFiles/ensivideo.dir/src/ensitheora.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /user/2/.base/boussanl/home/lecteur_video_thread/src/ensitheora.c -o CMakeFiles/ensivideo.dir/src/ensitheora.c.s
 
 CMakeFiles/ensivideo.dir/src/ensitheora.c.o.requires:
 .PHONY : CMakeFiles/ensivideo.dir/src/ensitheora.c.o.requires
@@ -100,17 +100,17 @@ CMakeFiles/ensivideo.dir/src/ensitheora.c.o.provides.build: CMakeFiles/ensivideo
 
 CMakeFiles/ensivideo.dir/src/ensivorbis.c.o: CMakeFiles/ensivideo.dir/flags.make
 CMakeFiles/ensivideo.dir/src/ensivorbis.c.o: ../src/ensivorbis.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ensimag/lecteur_video_thread/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /user/2/.base/boussanl/home/lecteur_video_thread/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ensivideo.dir/src/ensivorbis.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/ensivorbis.c.o   -c /home/ensimag/lecteur_video_thread/src/ensivorbis.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/ensivorbis.c.o   -c /user/2/.base/boussanl/home/lecteur_video_thread/src/ensivorbis.c
 
 CMakeFiles/ensivideo.dir/src/ensivorbis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ensivideo.dir/src/ensivorbis.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ensimag/lecteur_video_thread/src/ensivorbis.c > CMakeFiles/ensivideo.dir/src/ensivorbis.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /user/2/.base/boussanl/home/lecteur_video_thread/src/ensivorbis.c > CMakeFiles/ensivideo.dir/src/ensivorbis.c.i
 
 CMakeFiles/ensivideo.dir/src/ensivorbis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ensivideo.dir/src/ensivorbis.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ensimag/lecteur_video_thread/src/ensivorbis.c -o CMakeFiles/ensivideo.dir/src/ensivorbis.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /user/2/.base/boussanl/home/lecteur_video_thread/src/ensivorbis.c -o CMakeFiles/ensivideo.dir/src/ensivorbis.c.s
 
 CMakeFiles/ensivideo.dir/src/ensivorbis.c.o.requires:
 .PHONY : CMakeFiles/ensivideo.dir/src/ensivorbis.c.o.requires
@@ -123,17 +123,17 @@ CMakeFiles/ensivideo.dir/src/ensivorbis.c.o.provides.build: CMakeFiles/ensivideo
 
 CMakeFiles/ensivideo.dir/src/oggstream.c.o: CMakeFiles/ensivideo.dir/flags.make
 CMakeFiles/ensivideo.dir/src/oggstream.c.o: ../src/oggstream.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ensimag/lecteur_video_thread/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /user/2/.base/boussanl/home/lecteur_video_thread/build/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ensivideo.dir/src/oggstream.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/oggstream.c.o   -c /home/ensimag/lecteur_video_thread/src/oggstream.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/oggstream.c.o   -c /user/2/.base/boussanl/home/lecteur_video_thread/src/oggstream.c
 
 CMakeFiles/ensivideo.dir/src/oggstream.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ensivideo.dir/src/oggstream.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ensimag/lecteur_video_thread/src/oggstream.c > CMakeFiles/ensivideo.dir/src/oggstream.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /user/2/.base/boussanl/home/lecteur_video_thread/src/oggstream.c > CMakeFiles/ensivideo.dir/src/oggstream.c.i
 
 CMakeFiles/ensivideo.dir/src/oggstream.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ensivideo.dir/src/oggstream.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ensimag/lecteur_video_thread/src/oggstream.c -o CMakeFiles/ensivideo.dir/src/oggstream.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /user/2/.base/boussanl/home/lecteur_video_thread/src/oggstream.c -o CMakeFiles/ensivideo.dir/src/oggstream.c.s
 
 CMakeFiles/ensivideo.dir/src/oggstream.c.o.requires:
 .PHONY : CMakeFiles/ensivideo.dir/src/oggstream.c.o.requires
@@ -146,17 +146,17 @@ CMakeFiles/ensivideo.dir/src/oggstream.c.o.provides.build: CMakeFiles/ensivideo.
 
 CMakeFiles/ensivideo.dir/src/stream_common.c.o: CMakeFiles/ensivideo.dir/flags.make
 CMakeFiles/ensivideo.dir/src/stream_common.c.o: ../src/stream_common.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ensimag/lecteur_video_thread/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /user/2/.base/boussanl/home/lecteur_video_thread/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ensivideo.dir/src/stream_common.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/stream_common.c.o   -c /home/ensimag/lecteur_video_thread/src/stream_common.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/stream_common.c.o   -c /user/2/.base/boussanl/home/lecteur_video_thread/src/stream_common.c
 
 CMakeFiles/ensivideo.dir/src/stream_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ensivideo.dir/src/stream_common.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ensimag/lecteur_video_thread/src/stream_common.c > CMakeFiles/ensivideo.dir/src/stream_common.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /user/2/.base/boussanl/home/lecteur_video_thread/src/stream_common.c > CMakeFiles/ensivideo.dir/src/stream_common.c.i
 
 CMakeFiles/ensivideo.dir/src/stream_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ensivideo.dir/src/stream_common.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ensimag/lecteur_video_thread/src/stream_common.c -o CMakeFiles/ensivideo.dir/src/stream_common.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /user/2/.base/boussanl/home/lecteur_video_thread/src/stream_common.c -o CMakeFiles/ensivideo.dir/src/stream_common.c.s
 
 CMakeFiles/ensivideo.dir/src/stream_common.c.o.requires:
 .PHONY : CMakeFiles/ensivideo.dir/src/stream_common.c.o.requires
@@ -169,17 +169,17 @@ CMakeFiles/ensivideo.dir/src/stream_common.c.o.provides.build: CMakeFiles/ensivi
 
 CMakeFiles/ensivideo.dir/src/synchro.c.o: CMakeFiles/ensivideo.dir/flags.make
 CMakeFiles/ensivideo.dir/src/synchro.c.o: ../src/synchro.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ensimag/lecteur_video_thread/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /user/2/.base/boussanl/home/lecteur_video_thread/build/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ensivideo.dir/src/synchro.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/synchro.c.o   -c /home/ensimag/lecteur_video_thread/src/synchro.c
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ensivideo.dir/src/synchro.c.o   -c /user/2/.base/boussanl/home/lecteur_video_thread/src/synchro.c
 
 CMakeFiles/ensivideo.dir/src/synchro.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ensivideo.dir/src/synchro.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/ensimag/lecteur_video_thread/src/synchro.c > CMakeFiles/ensivideo.dir/src/synchro.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /user/2/.base/boussanl/home/lecteur_video_thread/src/synchro.c > CMakeFiles/ensivideo.dir/src/synchro.c.i
 
 CMakeFiles/ensivideo.dir/src/synchro.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ensivideo.dir/src/synchro.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/ensimag/lecteur_video_thread/src/synchro.c -o CMakeFiles/ensivideo.dir/src/synchro.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /user/2/.base/boussanl/home/lecteur_video_thread/src/synchro.c -o CMakeFiles/ensivideo.dir/src/synchro.c.s
 
 CMakeFiles/ensivideo.dir/src/synchro.c.o.requires:
 .PHONY : CMakeFiles/ensivideo.dir/src/synchro.c.o.requires
@@ -230,6 +230,6 @@ CMakeFiles/ensivideo.dir/clean:
 .PHONY : CMakeFiles/ensivideo.dir/clean
 
 CMakeFiles/ensivideo.dir/depend:
-	cd /home/ensimag/lecteur_video_thread/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ensimag/lecteur_video_thread /home/ensimag/lecteur_video_thread /home/ensimag/lecteur_video_thread/build /home/ensimag/lecteur_video_thread/build /home/ensimag/lecteur_video_thread/build/CMakeFiles/ensivideo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /user/2/.base/boussanl/home/lecteur_video_thread/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /user/2/.base/boussanl/home/lecteur_video_thread /user/2/.base/boussanl/home/lecteur_video_thread /user/2/.base/boussanl/home/lecteur_video_thread/build /user/2/.base/boussanl/home/lecteur_video_thread/build /user/2/.base/boussanl/home/lecteur_video_thread/build/CMakeFiles/ensivideo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ensivideo.dir/depend
 

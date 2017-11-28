@@ -4,7 +4,7 @@
 #include "ensivideo.h"
 
 extern bool fini;
-extern pthread_t theora2sdlthread;
+extern pthread_t thread_sdl;
 extern struct timespec datedebut;
 
 int msFromStart();

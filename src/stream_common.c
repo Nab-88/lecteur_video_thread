@@ -6,7 +6,7 @@
 #include "synchro.h"
 #include <pthread.h>
 bool fini = false;
-
+pthread_t thread_sdl;
 
 struct timespec datedebut;
 
@@ -65,20 +65,23 @@ struct streamstate *getStreamState(ogg_sync_state *pstate, ogg_page *ppage,
 	assert(res == 0);
 
 	// proteger l'accès à la hashmap
-
+    pthread_mutex_lock(&mutex_hashmap);
 	if (type == TYPE_THEORA)
 	    HASH_ADD_INT( theorastrstate, serial, s );
 	else
 	    HASH_ADD_INT( vorbisstrstate, serial, s );
+    pthread_mutex_unlock(&mutex_hashmap);
 
     } else {
 	// proteger l'accès à la hashmap
+    pthread_mutex_lock(&mutex_hashmap);
 
 	if (type == TYPE_THEORA)
 	    HASH_FIND_INT( theorastrstate, & serial, s );
 	else
 	    HASH_FIND_INT( vorbisstrstate, & serial, s );
 
+    pthread_mutex_unlock(&mutex_hashmap);    
 	assert(s != NULL);
     }
     assert(s != NULL);
@@ -142,8 +145,8 @@ int decodeAllHeaders(int respac, struct streamstate *s, enum streamtype type) {
 		// lancement du thread gérant l'affichage (draw2SDL)
 	        // inserer votre code ici !!
           //ici il faudra lancer draw2SDL
-          pthread_t thread_sdl;
-          if (pthread_create(&thread_sdl, NULL, draw2SDL, (s->serial)) == -1) {
+          void * argument = &(s->serial);
+          if (pthread_create(&thread_sdl, NULL, draw2SDL, argument)) {
             perror("thread_create_sdl");
             return EXIT_FAILURE;
           }

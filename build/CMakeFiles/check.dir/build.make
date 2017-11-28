@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ensimag/lecteur_video_thread
+CMAKE_SOURCE_DIR = /user/2/.base/boussanl/home/lecteur_video_thread
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ensimag/lecteur_video_thread/build
+CMAKE_BINARY_DIR = /user/2/.base/boussanl/home/lecteur_video_thread/build
 
 # Utility rule file for check.
 
@@ -64,6 +64,6 @@ CMakeFiles/check.dir/clean:
 .PHONY : CMakeFiles/check.dir/clean
 
 CMakeFiles/check.dir/depend:
-	cd /home/ensimag/lecteur_video_thread/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ensimag/lecteur_video_thread /home/ensimag/lecteur_video_thread /home/ensimag/lecteur_video_thread/build /home/ensimag/lecteur_video_thread/build /home/ensimag/lecteur_video_thread/build/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /user/2/.base/boussanl/home/lecteur_video_thread/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /user/2/.base/boussanl/home/lecteur_video_thread /user/2/.base/boussanl/home/lecteur_video_thread /user/2/.base/boussanl/home/lecteur_video_thread/build /user/2/.base/boussanl/home/lecteur_video_thread/build /user/2/.base/boussanl/home/lecteur_video_thread/build/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/check.dir/depend
 
