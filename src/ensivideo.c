@@ -53,7 +53,6 @@ int main(int argc, char *argv[]) {
     //pthread_cancel avant d'attendre leur terminaison
     pthread_cancel(thread_video);
     pthread_cancel(thread_sdl);
-    // pthread_cancel(thread_sdl);
     // attendre les 2 threads videos
     // Tuer tout les mutex
 
