@@ -12,8 +12,8 @@ set(CMAKE_BUILD_TYPE Debug)
 # Gestion des variantes
 #########
 # Vous devez editer les lignes suivantes pour y mettre vos logins
-#########
-set(LOGINS boussanl bernnicos)
+
+set(LOGINS boussanl bernnico)
 
 # Vérification du renseignement des login
 list(SORT LOGINS)
