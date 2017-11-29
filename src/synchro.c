@@ -58,6 +58,7 @@ void attendreFenetreTexture() {
 void debutConsommerTexture() {
     pthread_mutex_lock(&mutex_prod_cons);
     while (deposer) {
+        pthread_cond_signal(&cond_deposer);
         pthread_cond_wait(&cond_consommer, &mutex_prod_cons);
     }
     consommer = true;
@@ -75,7 +76,8 @@ void finConsommerTexture() {
 
 void debutDeposerTexture() {
     pthread_mutex_lock(&mutex_prod_cons);
-    while (text_current < NBTEX || consommer) {
+    while (text_current == NBTEX || consommer) {
+        pthread_cond_signal(&cond_consommer);
         pthread_cond_wait(&cond_deposer, &mutex_prod_cons);
     }
     deposer = true;

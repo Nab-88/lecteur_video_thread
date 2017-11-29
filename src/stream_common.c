@@ -81,7 +81,7 @@ struct streamstate *getStreamState(ogg_sync_state *pstate, ogg_page *ppage,
 	else
 	    HASH_FIND_INT( vorbisstrstate, & serial, s );
 
-    pthread_mutex_unlock(&mutex_hashmap);    
+    pthread_mutex_unlock(&mutex_hashmap);
 	assert(s != NULL);
     }
     assert(s != NULL);
@@ -145,8 +145,7 @@ int decodeAllHeaders(int respac, struct streamstate *s, enum streamtype type) {
 		// lancement du thread gérant l'affichage (draw2SDL)
 	        // inserer votre code ici !!
           //ici il faudra lancer draw2SDL
-          void * argument = &(s->serial);
-          if (pthread_create(&thread_sdl, NULL, draw2SDL, argument)) {
+          if (pthread_create(&thread_sdl, NULL, draw2SDL, (void *) (long long int) (s-> serial))) {
             perror("thread_create_sdl");
             return EXIT_FAILURE;
           }
