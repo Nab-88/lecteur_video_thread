@@ -1,0 +1,20 @@
+Start testing: Nov 27 15:17 CET
+----------------------------------------------------------
+1/1 Testing: CommonPthreadError
+1/1 Test: CommonPthreadError
+Command: "/usr/bin/perl" "/home/ensimag/lecteur_video_thread/tests/pthcocci.pl"
+Directory: /home/ensimag/lecteur_video_thread/build
+"CommonPthreadError" start time: Nov 27 15:17 CET
+Output:
+----------------------------------------------------------
+sh: spatch : commande introuvable
+Can't exec "spatch": Aucun fichier ou dossier de ce type at /home/ensimag/lecteur_video_thread/tests/pthcocci.pl line 17.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"CommonPthreadError" end time: Nov 27 15:17 CET
+"CommonPthreadError" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 27 15:17 CET
